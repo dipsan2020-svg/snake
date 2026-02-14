@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Daju Photo Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #e0f7fa;
+            text-align: center;
+        }
+
+        header {
+            background: #00796b;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #00796b;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Snake Daju (Pujan) Photo Gallery
+    </header>
+    <h1 style="color: darkorange;">About Snake Daju
+    </h1>
+    <h2 style="color: darkkhaki;"> Pujan is a big python snake that loves to play fight with other. he have two
+         fighting tools poision and pen.</h2>
+
+    <div class="gallery">
+        <img src="snake1.jpg" alt="Snake Daju 1">
+        <img src="snake2.jpg" alt="Snake Daju 2">
+        <img src="snake3.jpg" alt="Snake Daju 3">
+        <img src="snake4.jpg" alt="Snake Daju 4">
+        <img src="snake5.jpg" alt="Snake Daju 5">
+        <img src="snake6.jpg" alt="Snake Daju 6">
+        <img src="snake7.jpg" alt="Snake Daju 7">
+    </div>
+
+    <footer>
+        Made with love ❤️
+    </footer>
+    <style>
+footer {
+    background: #00796b;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 32px;       /* Bigger text */
+    font-weight: bold;     /* Bold letters */
+    letter-spacing: 1px;   /* Space between letters */
+}
+</style>
+
+</body>
+</html>
